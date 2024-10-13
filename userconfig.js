@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Thanh Hoa",
     scale: "C",
   },
   clock: {
@@ -12,55 +12,38 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://youtu.be/dQw4w9WgXcQ?si=2klFq_NSiV_bE0d9",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "Social",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
-        {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
         {
           name: "workspace",
           links: [
             {
-              name: "gmail",
+              name: "Gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
+              name: "Drive",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
+              icon_color: palette.blue,
+            },
+            {
+              name: "Messenger",
+              url: "https://www.messenger.com/",
+              icon: "brand-messenger",
+              icon_color: palette.blue,
+            },
+            {
+              name: "Zalo",
+              url: "https://id.zalo.me/account?continue=https%3A%2F%2Fchat.zalo.me%2F#",
+              icon: "letter-z",
               icon_color: palette.blue,
             },
           ],
@@ -69,211 +52,100 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "Youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
-      categories: [
-        {
-          name: "resources",
-          links: [
-            {
-              name: "github",
-              url: "https://github.com",
-              icon: "brand-github",
-              icon_color: palette.green,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
-            {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "challenges",
-          links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "blogs",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
-      categories: [
-        {
-          name: "social medias",
-          links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              name: "Reddit",
+              url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.red,
             },
           ],
         },
+      ],
+    },
+    {
+      name: "work",
+      background_url: "src/img/banners/cbg-8.gif",
+      categories: [
         {
-          name: "games",
+          name: "research",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "Github",
+              url: "https://github.com",
+              icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "steam",
+              name: "Udemy",
+              url: "https://www.udemy.com/",
+              icon: "underline",
+              icon_color: palette.peach,
+            },
+            {
+              name: "FMHY",
+              url: "https://fmhy.net/",
+              icon: "baseline-density-medium",
+              icon_color: palette.red,
+            },,
+          ],
+        },
+        {
+          name: "resources",
+          links: [
+            {
+              name: "Lambda AI",
+              url: "https://lambda.chat/chatui/",
+              icon: "message-chatbot",
+              icon_color: palette.red,
+            }
+          ],
+        },
+      ],
+    },
+    {
+      name: "relax",
+      background_url: "src/img/banners/cbg-1.gif",
+      categories: [
+        {
+          name: "Game Related",
+          links: [
+            {
+              name: "Masterduel Meta",
+              url: "https://www.masterduelmeta.com/",
+              icon: "cards",
+              icon_color: palette.green,
+            },
+            {
+              name: "Steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
               icon_color: palette.peach,
             },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
-          name: "video",
+          name: "Fun Stuff",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "Typing",
+              url: "https://monkeytype.com/",
+              icon: "device-gamepad",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "Pokemon Showdown",
+              url: "https://pokemonshowdown.com/",
+              icon: "pokeball",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
+    
       ],
     },
   ],
