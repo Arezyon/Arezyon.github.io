@@ -32,13 +32,13 @@ const default_config = {
               name: "Drive",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
-              icon_color: palette.blue,
+              icon_color: palette.green,
             },
             {
               name: "Messenger",
-              url: "https://www.messenger.com/",
+              url: "https://www.messenger.com/t/4062537160542782/",
               icon: "brand-messenger",
-              icon_color: palette.blue,
+              icon_color: palette.pink,
             },
             {
               name: "Zalo",
@@ -101,7 +101,7 @@ const default_config = {
               name: "Lambda AI",
               url: "https://lambda.chat/chatui/",
               icon: "message-chatbot",
-              icon_color: palette.red,
+              icon_color: palette.blue,
             }
           ],
         },
