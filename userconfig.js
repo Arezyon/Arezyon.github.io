@@ -58,10 +58,10 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "Reddit",
-              url: "https://www.reddit.com",
-              icon: "brand-reddit",
-              icon_color: palette.red,
+              name: "News",
+              url: "https://en.m.wikipedia.org/wiki/Portal:Current_events",
+              icon: "brand-wikipedia",
+              icon_color: palette.white,
             },
           ],
         },
@@ -103,6 +103,23 @@ const default_config = {
               icon: "message-chatbot",
               icon_color: palette.red,
             }
+          ],
+        },
+        {
+          name: "school stuff",
+          links: [
+            {
+              name: "MS Team",
+              url: "https://teams.microsoft.com/v2/?culture=vi-vn&country=vn",
+              icon: "brand-teams",
+              icon_color: palette.blue,
+            },
+            {
+              name: "School Page",
+              url: "https://sv.isvnu.vn/dashboard.html",
+              icon: "school",
+              icon_color: palette.red,
+            } 
           ],
         },
       ],
